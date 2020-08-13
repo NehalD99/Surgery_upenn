@@ -1,2 +1,11 @@
 # Surgery_upenn
  
+HISTORY OF CHANGES
+
+
+
+1) INSTALL MMDETECTIONv.1.0.0 FOR SOLO
+
+   FOLLOW INTRUCTIONS ON WEBSITE - https://github.com/WXinlong/SOLO
+
+2)
