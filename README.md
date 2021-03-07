@@ -4,9 +4,9 @@ HISTORY OF CHANGES
 
 
 
-1) INSTALL MMDETECTIONv.1.0.0 FOR SOLO
+~~1) INSTALL MMDETECTIONv.1.0.0 FOR SOLO ~~
 
-   FOLLOW INTRUCTIONS ON WEBSITE - https://github.com/WXinlong/SOLO
+   ~~FOLLOW INTRUCTIONS ON WEBSITE - https://github.com/WXinlong/SOLO ~~
 
 2) CONVERT SURGERY DATA TO COCO
    Steps -
@@ -25,4 +25,3 @@ HISTORY OF CHANGES
    The json file will be created.
 
 
-  3) Train using multiple gpus
