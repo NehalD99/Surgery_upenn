@@ -4,6 +4,7 @@ HISTORY OF CHANGES
 
 This repo is for dataset only
 
+Info about surgery dataset and format - https://www.overleaf.com/project/5f98cd561064790001b4adef
 
 ~~1) INSTALL MMDETECTIONv.1.0.0 FOR SOLO~~
 
