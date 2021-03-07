@@ -19,7 +19,7 @@ HISTORY OF CHANGES
    Run make_data.py - to create masks, categories and images in the npy 
    Run makeAnnotate.py - to create the annotations and images folder required to create the json
 
-   in the shapes_to_coco.py file under examples/shapes/ in pycococreator repo modify the categories as needed.
+   in the shapes_to_coco.py file under examples/shapes/ in pycococreator repo modify the categories as needed (tococo.py is an example of that)
 
    Run this file by giving appropriate paths.
 
