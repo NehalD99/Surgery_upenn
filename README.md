@@ -2,6 +2,7 @@
  
 HISTORY OF CHANGES
 
+This repo is for dataset only
 
 
 ~~1) INSTALL MMDETECTIONv.1.0.0 FOR SOLO~~
