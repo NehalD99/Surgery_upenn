@@ -139,8 +139,8 @@ def main(image_path='', annotation_path=''):
 
                 for i in np.unique(anns_per_img[:,:,2]):
 
-                    y, x = np.where(1*(anns_per_img[:,:,1] == i)!= 0)
-                    if i == 0 or i<1000 or y.size == 0 :
+                    y, x = np.where(1*(anns_per_img[:,:,2] == i)!= 0)
+                    if  i<1000 or y.size == 0 :
                         continue
                     c_a = coco_ann( l = len(coco_annotations),h=img.shape[0], w=img.shape[1], x=x, y=y, cat_id=int(i),image_id=int(coco_image["id"]), segm=1*(anns_per_img[:,:,1]==i))
 

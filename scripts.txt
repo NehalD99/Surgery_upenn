@@ -1,0 +1,17 @@
+
+the following commands work but useless because the code is not good
+python make_data.py --images /mnt/nvme2n1/backuphome/trainingDir/sampled_frames/511_1_VidB --annotations /mnt/nvme2n1/backuphome/trainingDir/511_1/DCNNdat_VID002B_0.0.0_0.4.11 --output_data output_aftermakedata/511_1_VidB
+
+
+python make_data.py --images /mnt/nvme2n1/backuphome/trainingDir/sampled_frames/517_1_VidC/ --annotations /mnt/nvme2n1/backuphome/trainingDir/517_1/DCNNdat_VID001C_0.0.0_0.5.34 --output_data output_aftermakedata/517_1_VidC 
+
+
+python make_data.py --images /mnt/nvme2n1/backuphome/trainingDir/sampled_frames/517_2_VidD/ --annotations /mnt/nvme2n1/backuphome/trainingDir/517_2/DCNNdat_VID001D_0.0.0_0.5.34 --output_data output_aftermakedata/517_2_VidD 
+
+new commands to make coco json format
+
+python surgery_to_coco.py --images /mnt/nvme2n1/backuphome/trainingDir/sampled_frames/511_1_VidB --annotations /mnt/nvme2n1/backuphome/trainingDir/511_1/DCNNdat_VID002B_0.0.0_0.4.11 --output_data coco_json/511_1_VidB
+
+python surgery_to_coco.py --images /mnt/nvme2n1/backuphome/trainingDir/sampled_frames/517_2_VidD --annotations /mnt/nvme2n1/backuphome/trainingDir/517_2/DCNNdat_VID001D_0.0.0_0.5.34  --output_data coco_json/517_2_VidD
+
+ython surgery_to_coco.py --images /mnt/nvme2n1/backuphome/trainingDir/sampled_frames/517_1_VidC --annotations /mnt/nvme2n1/backuphome/trainingDir/517_1/DCNNdat_VID001C_0.0.0_0.5.34  --output_data coco_json/517_1_VidC
